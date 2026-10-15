@@ -1,0 +1,20 @@
+# Local WhatsApp and browser state — never publish these.
+wa_session/
+wa_session_*/
+*_profile/
+playwright_profile/
+probe_rel_profile/
+
+# Personal exports and local debug output.
+contacts.csv
+contacts.xlsx
+debug_titles.txt
+*.log
+
+# Python-generated files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
